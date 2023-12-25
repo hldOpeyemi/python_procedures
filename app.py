@@ -21,8 +21,8 @@ cursor.close
 conn.close
 
 
-# for i in range(len(items)):
-#     # print(items[i][0:2])
+for i in range(len(items)):
+     print(items[i][0:2])
 
 user_input = input('Please enter a price: ')
 user_input = int(user_input)
